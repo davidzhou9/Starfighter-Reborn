@@ -1,4 +1,4 @@
-## Starfighter-Reborn
+###### Starfighter-Reborn
 
 Starfighter: Reborn&quot; is a re-imagined classic arcade game for Android OS. The application was developed 
 by Cypress Ranch High School student David Zhou in the 2015-2016 Computer Science Problems and Solutions class. 
