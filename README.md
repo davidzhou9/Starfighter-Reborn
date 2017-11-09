@@ -9,6 +9,6 @@ davidzhouabc@gmail.com.
 
 Screenshots of the Game:
 
-https://github.com/davidzhou9/Starfighter-Reborn/blob/master/screenshots/aboutscreen.png
+![homescreen](https://user-images.githubusercontent.com/23304836/32584879-a4207c66-c4c8-11e7-877a-7c4183fe47d9.png)
 
-https://github.com/davidzhou9/Starfighter-Reborn/blob/master/screenshots/homescreen.png
+![aboutscreen](https://user-images.githubusercontent.com/23304836/32584917-d1d94f66-c4c8-11e7-9ee8-30fea65fb4cc.png)
