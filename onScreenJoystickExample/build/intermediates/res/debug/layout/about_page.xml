@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundabout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="&quot;Starfighter: Reborn&quot; is a re-imagined classic arcade game for Android OS. The application was developed by Cypress Ranch High School student David Zhou in the 2015-2016 Computer Science Problems and Solutions class. This project was made possible with the help of mentors Mr. Bryce Hulett (Cypress Ranch) and Dr. Yonggao Yang (Prairie View A&amp;M University). The joystick was open source code from Github, user Ville Saarinen. The application was built in Android Studio and tested on a Samsung Galaxy S5. Any questions to the developer can be sent to davidzhouabc@gmail.com."
+        android:id="@+id/abouttext"
+        android:maxWidth="400dp"
+        android:textColor="#fffbf8"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/backbutton"
+        android:layout_toEndOf="@+id/backbutton"
+        android:layout_marginTop="51dp"
+        android:background="#040404" />
+
+    <Button
+        android:id="@+id/backbutton"
+        android:text="BACK TO MENU"
+        android:textColor="#63deff"
+        android:textSize="20sp"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout><!-- From: file:/H:/onScreenJoystickExample/onScreenJoystickExample/src/main/res/layout/about_page.xml -->

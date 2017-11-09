@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/planets">
+
+    <ViewFlipper
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:id="@+id/levelflip"
+        android:minWidth="350dp"
+        android:layout_gravity="right|top"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="339dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/levelonetext"
+                android:text="LEVEL ONE: RED SANDS \n\nTAKE COMMAND OF A STARFIGHTER IN THE STRUGGLE AGAINST THE ALIEN CONFEDERATION AS PRIVATE BRYCE HULETT, AN UNWILLING SOLDIER WHO FINDS HIMSELF THRUSTED INTO UNIVERSAL TOTAL WAR."
+                android:textColor="#ff493d"
+                android:textSize="19dp"
+                android:background="#010101" />
+
+            <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/leveloneselection"
+            android:maxHeight="10dp"
+                android:paddingStart="10dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/leveltwoselection"
+            android:minHeight="300dp" />
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/playlevel"
+        android:text="PLAY LEVEL"
+        android:textColor="#3393ff"
+        android:textSize="25dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SELECT LEVEL BY SWIPING"
+        android:id="@+id/titlelevelselect"
+        android:textSize="35dp"
+        android:textColor="#3393ff"
+        android:background="#080808"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:autoText="false" />
+
+
+</RelativeLayout>

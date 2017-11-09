@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.salamientertainment.onscreenjoystickexample.TestSurface
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:id="@+id/surface"
+        android:background="@android:color/white"
+        />
+
+    <com.salamientertainment.view.onscreenjoystick.OnScreenJoystick
+        android:id="@+id/directionJoystick"
+        android:layout_width="154dp"
+        android:layout_height="124dp"
+        android:layout_gravity="left|bottom"
+        android:background="@drawable/joystick_bg"/>
+
+</FrameLayout><!-- From: file:/H:/onScreenJoystickExample/onScreenJoystickExample/src/main/res/layout/activity_game.xml -->
